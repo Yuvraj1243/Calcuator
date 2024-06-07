@@ -1,0 +1,9 @@
+import java.io.*;
+class LogicalOperator {
+    public static void main(String[] args) {
+        int a=20;
+        int b=30;
+        System.out.println(a>b&&b<a);//false
+        System.out.println(a>b||a<b);//true
+    }
+}
