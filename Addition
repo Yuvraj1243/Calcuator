@@ -1,0 +1,26 @@
+class Calculator {
+    private int num1;
+    private int num2;
+    private int num3;
+      
+public void setValues() {
+        num1 = 20;
+        num2 = 20;
+        num3 = 30;
+    }
+       public int sum() {
+        return num1 + num2+num3;
+    }
+
+     public void print() {
+        System.out.println("Sum: " + sum());
+    }
+}
+
+public class SumCalculator {
+    public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        calc.setValues();                
+        calc.print();                       
+    }
+}
